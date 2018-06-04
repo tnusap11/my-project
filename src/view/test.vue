@@ -7,11 +7,37 @@
         <router-link to="/test/title1">标题1</router-link>
         <router-link to="/test/title2">标题2</router-link>
         <router-view></router-view>
+
+        <!-- 编程式路由 -->
+        <div @click="gotoGoods">跳转到商品详情页面</div>
     </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      msg: "hello vue"
+    };
+  },
+  methods: {
+    // @click="gotoGoods"等于gotoGoods()
+    gotoGoods() {
+      // 打开goods页面
+        // this.$router.push('/goods');
+
+      this.$router.push({
+          path: '/goods?goodsId=666'
+      });
+      this.$router.push({
+          path: '/goods',
+          query:{
+              goodsId:666
+          }
+      });
+    }
+  }
+};
 </script>
 
 <style scoped>
