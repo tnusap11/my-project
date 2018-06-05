@@ -1,20 +1,14 @@
 <template>
   <div id="app">
-    <my-header></my-header>
-    <my-header></my-header>
     <router-view/>
   </div>
 </template>
 
 <script>
 // 引入组件
-import MyHeader from '@/components/myHeader'
+import MyHeader from "@/components/myHeader";
 export default {
-  name: "App",
-  // 注册组件
-  components: {
-    MyHeader
-  }
+  name: "App"
 };
 </script>
 
