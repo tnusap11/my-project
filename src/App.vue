@@ -1,16 +1,20 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <!-- 命名路由：default -->
+    <my-header></my-header>
+    <my-header></my-header>
     <router-view/>
-    <router-view name="title1"/>
-    <router-view name="title2"/>
   </div>
 </template>
 
 <script>
+// 引入组件
+import MyHeader from '@/components/myHeader'
 export default {
-  name: "App"
+  name: "App",
+  // 注册组件
+  components: {
+    MyHeader
+  }
 };
 </script>
 
