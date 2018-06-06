@@ -50,7 +50,10 @@ export default {
 };
 </script>
 
-<style scoped>
-.carousel {
+<style lang="less" scoped>
+.myHeader {
+  .test {
+    background: red;
+  }
 }
 </style>
