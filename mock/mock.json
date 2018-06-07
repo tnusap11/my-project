@@ -1,0 +1,45 @@
+{
+    "code": 200,
+    "msg": "",
+    "data": {
+        "swiper": [
+            "../static/carousel1.png",
+            "../static/carousel2.png",
+            "../static/carousel3.png"
+        ],
+        "activity": [
+            {
+                "img": "../static/carousel1.png",
+                "name": "品牌:Hxx-Luxury Store",
+                "desc": "你好哈你好你好你好"
+            },
+            {
+                "img": "../static/carousel2.png",
+                "name": "品牌:Hxx-Luxury Store",
+                "desc": "你asdf你好你好"
+            },
+            {
+                "img": "../static/carousel1.png",
+                "name": "品牌:Hxx-Luxury Store",
+                "desc": "你好aaaaa好你好"
+            }
+        ],
+        "recommend": [
+            {
+                "img": "@/assets/logo.png",
+                "name": "品牌:Hxx-Luxury Store",
+                "desc": "你好哈你好你好你好"
+            },
+            {
+                "img": "@/assets/logo.png",
+                "name": "品牌:Hxx-Luxury Store",
+                "desc": "你asdf你好你好"
+            },
+            {
+                "img": "../static/carousel1.png",
+                "name": "品牌:Hxx-Luxury Store",
+                "desc": "你好aaaaa好你好"
+            }
+        ]
+    }
+}
